@@ -14,7 +14,7 @@ links: []
 image:
   caption: Screenshot of the game.
   focal_point: Smart
-  filename: screenshot-2020-08-22-at-4.11.52-pm.png
+  filename: featured.png
 url_code: ""
 ---
 
