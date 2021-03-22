@@ -1,12 +1,10 @@
 ---
 title: Srikar Jilugu
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+role: Student at Mathemtics and Computing in IIT Hyderabad.
+bio: My course work include Algorithms,Statistics,Machine Learning etc
 interests:
+  - Data Science
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 social:
   - icon: envelope
     icon_pack: fas
@@ -24,7 +22,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/
 organizations:
-  - name: Stanford University
+  - name: IIT Hyderabad
     url: https://www.stanford.edu/
 education:
   courses:
