@@ -1,6 +1,6 @@
 ---
 title: Srikar Jilugu
-role: Student at Mathemtics and Computing in IIT Hyderabad.
+role: Student at Mathematics and Computing in IIT Hyderabad.
 bio: My course work include Algorithms,Statistics,Machine Learning etc
 interests:
   - MachineLearning
@@ -14,7 +14,7 @@ social:
       header: false
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/
   - icon: github
     icon_pack: fab
     link: https://github.com/always-newbie161
