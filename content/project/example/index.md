@@ -10,6 +10,7 @@ title: Long Night
 tags:
   - JavaFX
   - GameOfThrones
+  - Java
 links: []
 image:
   caption: Screenshot of the game.
