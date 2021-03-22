@@ -33,7 +33,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I'm a second year student in MnC at IIT Hyderabad. I have a keen interest in Data science, Artificial Intelligence. I am also currently working as an Intern at Fusion technologies as a Core Python devoloper. 
+I'm a second year student in MnC at IIT Hyderabad. I have a keen interest in Data science, Artificial Intelligence. I am also currently working as an Intern at Fusion technologies as a Core Python developer.
 
 
 
