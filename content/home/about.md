@@ -3,7 +3,7 @@ widget: about
 widget_id: Hi I am a student.
 headless: true
 weight: 20
-title: Biography
+title: Biograph
 active: true
 author: admin
 design:
