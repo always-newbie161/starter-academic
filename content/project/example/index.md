@@ -1,41 +1,95 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
-tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: example
+url_pdf: ""
+summary: My first project.
+url_video: ""
+date: 2021-03-22T13:47:45.404Z
+external_link: https://github.com/always-newbie161/LambdaSpaceInvaders
+url_slides: ""
+title: Long Night
+tags:
+  - JavaFX
+  - GameOfThrones
+links: []
+image:
+  caption: Screenshot of the game.
+  focal_point: Smart
+  filename: screenshot-2020-08-22-at-4.11.52-pm.png
+url_code: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+This project is a **desktop application** game named “Long Night” which is like a clone to the vintage **Space Invaders** with a different theme.It is made using **Java Programming language** by using **JavaFX** library.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+It’s a battle between **United knights** and the **dangerous wights.** The wights lead by **Nightking** tries to invade the whole Westeros(the humans land).
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+- - -
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+## Prerequisites:
+
+To run this application **Java development Kit(jdk)** has to be installed in the  system and that’s it.Javafx run machine will be included in it. JDK can be installed from the Oracle’s official website under Java SE Development Kit (latest ver 13.0). 
+
+- - -
+
+## Into the Project
+
+The Entire project is made using **JavaFX** library and the fxml files are built using **Gluon SceneBuilder**.As this is a dynamic game,the **Animation timer** class available in JavaFX  is used to update every frame of the game accordingly .
+
+The characters and weapons used by the characters are the instances of **Imageview** class which are added on a child node of a scene named **ground**.
+
+- - -
+
+## How to Play
+
+The controls of the game are the **horizantal arrow keys to move and the space bar to shoot (or use) the weapon.** 
+
+There are **four knights** to fight the wights with their weapons. Each knight has same level of health bar but with different strengths to kill the wights.one might take one shot or two to kill the wights.
+The knights have a dragon which breaths fire it can kill a massive amount of wights
+but it can be used only limited times and the **dead army(wights)** also has a **dragon** but it  breathes **blue fire** which can kill a knight with one breath. It can attack at any time of the game.
+
+The motive of the game is to **defend Westeros** from the dead army using the knights.
+
+[This is the user interface of the game](https://drive.google.com/file/d/107SGAGzmuVCfV3Cuaw6x0rvqkXW2LPxd/view?usp=sharing)
+
+- - -
+
+## Running the Game
+
+The whole project is constitution of 2 java files and two fxml files Running the Main.java runs the game.It can be done through cmd in windows or terminal in linux.
+
+**Running the Main.java file through command line** 
+
+```
+javac Main.java
+    
+java Main
+```
+
+- - -
+
+## Running the Jar File
+
+Without running the program we can directly run the jar file of the program and  play the game.
+
+**Running the jar file through command line**
+
+```
+java -jar LambdaSpaceInvaders.jar
+```
+
+- - -
+
+## Built With
+
+* **Intellij IDEA** - Development environment used
+* **JavaFX**  - Library and Software Platform used.
+* **Gluon Scenebuilder**- Layout tool used to design the UI.
+
+- - -
+
+## Acknowledgments
+
+* Hat tip to **[Almas Baimagambetov](https://www.youtube.com/channel/UCmjXvUa36DjqCJ1zktXVbUA)** from whom the guidance to use Animation          timer is taken.
+* Theme inspiration from **[Game of thrones](https://en.wikipedia.org/wiki/Game_of_Thrones)** - an Epic fantasy TV Series.
+* Thanks to **[removebg](https://www.remove.bg/)** for helping me by creating the background  less  png files from jpg  
+* Thanks to **[StackEdit](https://stackedit.io/editor#the-long-night-game)** for helping me make this Readme file in the Markdown format.
