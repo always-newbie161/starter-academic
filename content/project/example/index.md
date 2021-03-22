@@ -4,7 +4,7 @@ url_pdf: ""
 summary: My first project.
 url_video: ""
 date: 2021-03-22T13:47:45.404Z
-external_link: https://github.com/always-newbie161/LambdaSpaceInvaders
+external_link: 
 url_slides: ""
 title: Long Night
 tags:
