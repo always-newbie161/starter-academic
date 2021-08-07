@@ -7,7 +7,7 @@ draft: false
 featured: false
 image:
   filename: gsoc_tf.png
-  focal_point: SMART
+  focal_point: TOP
   preview_only: false
   caption: ""
 ---
